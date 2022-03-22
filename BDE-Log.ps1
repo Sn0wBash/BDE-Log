@@ -1,4 +1,4 @@
-#(Get-BitLockerVolume).encryptionpercentage
+#Run as admin - needed by Get-BitlockerVolume cmdlet
 
 $name = hostname
 $path = "c:\temp\" + $name + "-BDE.txt"
